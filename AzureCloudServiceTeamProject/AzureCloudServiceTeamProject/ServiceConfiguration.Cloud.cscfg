@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudServiceTeamProject" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="5" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="MyTeamWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=mystorage008;AccountKey=$(_mystorage008.key_)" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=mystorage008;AccountKey=VnoP7qCYV4r5N22JhrlVUuPURS+R3+3JioE8XR3e5l9O/bRVN7bPMkMGGU7lpHCN1cIr8DmMuDxyN+TCMTG79g==;EndpointSuffix=core.windows.net" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="student" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEDrXr3DY12uiS9FllE50Hl8wDQYJKoZIhvcNAQEBBQAEggEAsDaKYbtUU36gEkO6QUSRZdRw8xppVNrc4qzH1RTyZsGYxHPeA7jL7eXezDvD/SHGXDhKb9iLCnlWXEqYhJq8cWroYihdVzFD8SL5OI/S1iifK8e/iaGOm3r4dgREdL6DNwPMzthlg43ZhLttWIvHpmyaxlf4MnKfO0Z93PuY/mS+rImui4l3wHFE1/1F2iJAdouoLDmmcAfFoHhTXaMDOp4RePb2qqnVwe7jLNCoXJsQOWe+S21QfgxUFG8t/fcdlu9Hpz98Sfo/bxRv9nEpXNXpKo81198TjXaQLVTRLIfbFM+my9UEXpEskqW2tNKBcdSY8H0bMqEOzn5TcuCjMDAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECAjUJFrQKdKGgBD5ALiKAE4T8ni5GbsHtfXf" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2018-12-09T23:59:59.0000000+02:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="99400726-185d-46e2-876f-25e2055485e7" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="670C55384C7CED961613D7F598EC083917D5E0CF" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

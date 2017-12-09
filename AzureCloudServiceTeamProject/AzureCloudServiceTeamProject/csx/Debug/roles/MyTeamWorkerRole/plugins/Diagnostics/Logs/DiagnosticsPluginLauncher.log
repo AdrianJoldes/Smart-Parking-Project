@@ -1,0 +1,10 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Emulator config file set to C:\Users\Christian\source\repos\AzureCloudServiceTeamProject\AzureCloudServiceTeamProject\csx\Debug\roles\MyTeamWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] DiagnosticsStoreRootPath set to: C:\Users\Christian\AppData\Local\dftmp\Resources\cd93f048-e6f3-4a59-a4ca-2f269c44e2e6
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Loading config file: C:\Users\Christian\source\repos\AzureCloudServiceTeamProject\AzureCloudServiceTeamProject\csx\Debug\roles\MyTeamWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Config file to read: C:\Users\Christian\source\repos\AzureCloudServiceTeamProject\AzureCloudServiceTeamProject\csx\Debug\roles\MyTeamWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Emulator config file set to C:\Users\Christian\source\repos\AzureCloudServiceTeamProject\AzureCloudServiceTeamProject\csx\Debug\roles\MyTeamWorkerRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [12/9/2017 3:05:59 PM] Stopping the running plugin, if any
